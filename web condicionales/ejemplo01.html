@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 01</title>
+</head>
+<body>
+    <h1>Ejemplo 01</h1>
+    <p>Si tu realizas de 10 a mas matriculas en un dia te llevas un bono de 100 soles</p>
+    
+    <script>
+        let vendedor = prompt("vendedor")
+        let nm= Number(prompt("Ingrese su numero de matriculas"))
+
+        /*Variable de salida*/
+        let bono;
+
+        /*proceso*/
+        if (nm >= 10 )
+            {
+              bono = "S/" + 100;
+            }
+        else
+            {
+              bono = "S/" + 0;
+            }
+        
+        /*Datos de salida*/
+        document.write(vendedor + "<br>" + "tiene un bono de S/.:" + bono);
+
+
+
+    </script>
+</body>
+</html>
