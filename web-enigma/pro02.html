@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro02</title>
+</head>
+<body>
+    <script>
+        let total;
+
+        let precio1 = Number(prompt("Cuanto costo su cuaderno"));
+        let cantidad1 = Number(prompt("Cuantos cuadernos compro"));
+        let precio2 = Number(prompt("Cuanto costo su lapicero"));
+        let cantidad2 = Number(prompt("cuantos lapiceros compro"));
+        let total1 = (precio1 * cantidad1)
+        let total2 = (precio2 * cantidad2)
+        let totalcompra = (total1 + total2)
+
+        document.write("Cuadernos:" + "S/" + total1 + "<br>")
+        document.write("lapicero:" + "S/" + total2 + "<br>")
+        document.write("---------------------" + "<br>")
+        document.write("Total:" + "S/" + totalcompra)
+    </script>
+
+
+
+</body>
+</html>

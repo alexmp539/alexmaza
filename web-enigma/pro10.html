@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro10</title>
+</head>
+<body>
+    <script>
+        let dias = Number(prompt("Cuantos dias quieres viajar"));
+        let gastoAlimentacion = Number(prompt("Cuanto vas a gastar en un dia tus alimentos"));
+        let gastoTransporte = Number(prompt("Cuanto gastaras al dia en el transporte"));
+        let gastoAlojamiento = Number(prompt("Cuanto gastaras al dia en el hospedaje"));
+
+        gastoTotalAlimentos = (dias * gastoAlimentacion)
+        gastoTotalTransporte = (dias * gastoTransporte)
+        gastototalAlojamiento = (dias * gastoAlojamiento)
+
+        document.write("Cantidad gastada en Alimentos:" + "S/" + gastoTotalAlimentos + "<br>")
+        document.write("----------------------------------------------" + "<br>")
+        document.write("Cantidad gastada en Transporte:" + "S/" + gastoTotalTransporte + "<br>")
+        document.write("----------------------------------------------" + "<br>")
+        document.write("Cantidad gastada en Alojamiento:" + "S/" + gastototalAlojamiento)
+
+    </script>
+</body>
+</html>
